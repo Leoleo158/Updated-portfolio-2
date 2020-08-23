@@ -226,3 +226,235 @@ button
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.content-area
+{
+    position: relative;
+    left: 0;
+
+    width: 100%;
+}
+
+.content-area .content-area-inner
+{
+    position: relative;
+
+    width: 100%;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+
+.content-area .content-area-inner section
+{
+    max-width: 700px;
+    margin: 0 auto 20vh auto;
+}
+
+.content-area .content-area-inner section:last-child
+{
+    margin-bottom: 10vh;
+}
+
+.content-area .content-area-inner section h3.headline
+{
+    margin-bottom: 1.4em;
+}
+
+#intro
+{
+    position: relative;
+
+    height: 100vh;
+    margin-bottom: 0;
+
+    text-align: center;
+}
+
+#intro .container-mid
+{
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+#intro .container-mid h1
+{
+    font-weight: 500;
+
+    margin-bottom: .6em;
+}
+
+#intro .container-mid a
+{
+    font-size: 2.5rem;
+    line-height: 2.92em;
+
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    -webkit-transition: .2s ease;
+         -o-transition: .2s ease;
+            transition: .2s ease;
+    letter-spacing: .04em;
+
+    border-radius: 100px;
+}
+
+#intro .container-mid a .circle
+{
+    font-size: 1em;
+    line-height: 5.7rem;
+
+    position: relative;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 5.7rem;
+    height: 5.7rem;
+    margin-left: 1em;
+
+    vertical-align: middle;
+
+    border: 3px solid #fff;
+    border-radius: 100%;
+}
+
+#intro .container-mid a .circle i
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    width: 100%;
+
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    text-align: center;
+}
+
+#intro .container-mid a .circle i:first-child
+{
+    top: -50%;
+}
+
+#intro .container-mid a:hover .circle i:first-child
+{
+    top: 50%;
+
+    -webkit-transition: .15s ease;
+         -o-transition: .15s ease;
+            transition: .15s ease;
+}
+
+#intro .container-mid a .circle i:last-child
+{
+    top: 50%;
+}
+
+#intro .container-mid a:hover .circle i:last-child
+{
+    top: 150%;
+
+    -webkit-transition: .15s ease;
+         -o-transition: .15s ease;
+            transition: .15s ease;
+}
+
+#intro .animation-container
+{
+    -webkit-transition: .5s ease;
+         -o-transition: .5s ease;
+            transition: .5s ease;
+}
+
+#intro .animation-container.animation-fade
+{
+    opacity: 0;
+}
+
+#intro .animation-container.animation-fade.run-animation
+{
+    opacity: 1;
+}
+
+#intro .animation-container.animation-fade-up
+{
+    -webkit-transform: translateY(10vh);
+        -ms-transform: translateY(10vh);
+            transform: translateY(10vh);
+
+    opacity: 0;
+}
+
+#intro .animation-container.animation-fade-up.run-animation
+{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+#intro .animation-container.animation-fade-down
+{
+    -webkit-transform: translateY(-10vh);
+        -ms-transform: translateY(-10vh);
+            transform: translateY(-10vh);
+
+    opacity: 0;
+}
+
+#intro .animation-container.animation-fade-down.run-animation
+{
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0);
+
+    opacity: 1;
+}
+
+#intro .animation-container.animation-fade-left
+{
+    -webkit-transform: translateX(10vh);
+        -ms-transform: translateX(10vh);
+            transform: translateX(10vh);
+
+    opacity: 0;
+}
+
+#intro .animation-container.animation-fade-left.run-animation
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+
+    opacity: 1;
+}
+
+#intro .animation-container.animation-fade-right
+{
+    -webkit-transform: translateX(-10vh);
+        -ms-transform: translateX(-10vh);
+            transform: translateX(-10vh);
+
+    opacity: 0;
+}
+
+#intro .animation-container.animation-fade-right.run-animation
+{
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+
+    opacity: 1;
+}
+

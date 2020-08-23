@@ -458,3 +458,17 @@ button
     opacity: 1;
 }
 
+#about p
+{
+    margin-bottom: 2.2em;
+}
+
+#about p:last-child
+{
+    margin-bottom: 0;
+}
+
+#about .clients img
+{
+    margin-top: 3rem;
+}

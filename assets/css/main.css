@@ -472,3 +472,74 @@ button
 {
     margin-top: 3rem;
 }
+
+#service .services-list
+{
+    margin-bottom: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+#service .services-list li
+{
+    display: block;
+}
+
+#service .services-list li button
+{
+    font-size: 2.4rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3.4em;
+
+    position: relative;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+
+    text-align: left;
+
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+}
+
+#service .services-list li button:after
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1.7rem;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    content: '\f078';
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+
+    color: #fff;
+}
+
+#service .services-list li .well
+{
+    min-height: 20px;
+    margin-bottom: 0;
+    padding: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+    -webkit-transition: 1s ease;
+         -o-transition: 1s ease;
+            transition: 1s ease;
+
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}

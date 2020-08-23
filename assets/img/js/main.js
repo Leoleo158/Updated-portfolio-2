@@ -24,3 +24,21 @@ jQuery(window).on('load', function() {
 
     
 });
+
+jQuery(document).ready(function($) {
+	"use strict";
+    
+    
+    // SMOOTH SCROLL FOR SAME PAGE LINKS
+    $(document).on('click', 'a.smooth-scroll', function(event) {
+        
+        event.preventDefault();
+
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 80
+        }, 500);
+        
+    });
+
+
+

@@ -42,3 +42,17 @@ jQuery(document).ready(function($) {
 
 
 
+    // SCROLL REVEAL SETUP
+    window.sr = ScrollReveal();
+    sr.reveal(".scroll-animated", { 
+        duration: 600,
+        delay: 0,
+        origin: "left",
+        rotate: { x: 0, y: 0, z: 0 },
+        opacity: 0,
+        distance: "20vh",
+        viewFactor: 0.4,
+        scale: 1,
+    });
+
+    
